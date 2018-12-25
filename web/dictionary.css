@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : June 19, 2018, 1:41:47 AM
+    Author     : Abinet
+*/
+body{
+    font-family:Verdana;
+}
+#main
+{
+   
+    margin:auto;
+    background:linear-gradient(#009999,#779999);
+    padding:10px;
+    
+}
+#top{
+    margin-bottom: 20px;
+    font-size:30pt;
+    text-align:center;
+    font-weight:bold;
+    font-family:fantasy;
+}
+#lookup{
+    width:500px;
+    margin:auto;
+}
+#lookup [type=text]
+{
+    height:25pt;
+    width:300px;
+    font-size:20pt;
+    border:2px #229999;
+}
+[type=button] {
+    height:25pt;
+    width:100px;
+    font-size:20pt;
+    border:2px #229999;
+}
+#definition{
+   
+    color:#555555;
+    width:60%;
+    margin:auto;
+    padding:20px;
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius:100px;
+    
+}
